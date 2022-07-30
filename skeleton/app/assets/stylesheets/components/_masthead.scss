@@ -27,6 +27,20 @@
 	ul {
 		display: flex;
 	}
+
+	ul li {
+		padding: 7px;
+		color: $gray;
+	}
+
+	ul li:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+
+.language-nav li:first-child {
+	font-weight: bold;
 }
 
 .logo {
@@ -43,6 +57,7 @@
 
 	li {
 		margin-left: 10px;
+		padding-right: 10px;
 		border-right: 1px solid $light-gray;
 	}
 
@@ -62,6 +77,7 @@
 	button, 
 	time {
 		margin-right: 10px;
+		color: black;
 	}
 
 	i {
@@ -71,4 +87,12 @@
 	strong {
 		color: green;
 	}
+
+	ul {
+		display: flex;
+	}
+}
+
+.masthead-links li:last-child {
+	border-right: none;
 }
